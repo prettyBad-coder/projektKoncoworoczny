@@ -4,10 +4,13 @@ body {
 	background-color:  #303030;
 	display: flex;
 	justify-content: center;
-	align-items: center;
+	align-items: flex-end;
 	width: 100vw;
 	height: 100vh;
 	transition: 0;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
 }
 
 * {
@@ -17,11 +20,9 @@ body {
 }
 
 .container {
-	width: 37.5rem;
-	max-width: 80%;
+	width: 100vw;
 	background-color: coral;
 	padding: 1rem;
-	border-radius: 1rem;
 	box-shadow: 0 0 10px 2px;
 	transition: 0;
 }
@@ -32,6 +33,10 @@ body {
 	gap: 1rem;
 	margin-top: 1rem;
 	transition: 0;
+}
+
+.text {
+	text-align: center;
 }
 
 .button {
